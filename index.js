@@ -44,7 +44,7 @@ for (var i = 0; i < buttons.length; i++) {
 
 document.addEventListener('keydown', function(event) {
     audioPlay(event.key);
-    buttonAnimation(this.innerHTML);
+    buttonAnimation(event.key);
 })
 
 function buttonAnimation(key) {
